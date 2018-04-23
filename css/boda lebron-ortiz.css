@@ -1,0 +1,15 @@
+body{
+  font-family: sans-serif;
+}
+
+.gallery{
+  margin: 20px 60px;
+}
+.gallery img{
+  width: 230px;
+  padding: 5px;
+  transition: 2s;
+ }
+ .gallery img:hover{
+  transform: scale(1.2);
+ }

@@ -1,0 +1,35 @@
+.wrapper, 
+.wrapper1 {
+  display: flex;
+  column-count: 2;
+
+  }
+
+.wrapper div, 
+.wrapper1 div {
+  flex: 1;
+  border:6px ;
+  margin: 30px;
+  text-align: center;
+}
+
+.wrapper div img, 
+.wrapper1 div img {
+  width: 90%;
+  border-radius: 30px;
+  margin: 10px;
+  padding: 5px
+ }
+ div a {
+  font-weight: bold;
+  font-family: 'Dancing Script', cursive;
+  font-size:50px;
+  text-align: center;
+  margin: 10px;
+  transition: 1s;
+}
+.zoom:hover{
+  transform: scale(1.2);
+}
+
+
